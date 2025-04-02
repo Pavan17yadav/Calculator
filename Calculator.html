@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./Calculator.css">
+</head>
+<body>
+    <div>
+        <input type="text" class="js-calculation" readonly id="box" placeholder="00000000000000000000000">
+
+        <button onclick="updateCalculation('/');" class="b p">/</button>
+        <button onclick="updateCalculation('1');" class="n">1</button>
+        <button onclick="updateCalculation('2');" class="n">2</button>
+        <button onclick="updateCalculation('3');" class="n">3</button>
+        <button onclick="updateCalculation('+');" class="b p">+</button>
+        <button onclick="updateCalculation('4');" class="n">4</button>
+        <button onclick="updateCalculation('5');" class="n">5</button>
+        <button onclick="updateCalculation('6');" class="n">6</button>
+        <button onclick="updateCalculation('-');" class="b p">-</button>
+        <button onclick="updateCalculation('7');" class="n">7</button>
+        <button onclick="updateCalculation('8');" class="n">8</button>
+        <button onclick="updateCalculation('9');" class="n">9</button>
+        <button id="clear" class="p" onclick=" 
+        calculation='';
+        displayCalculation();
+        localStorage.setItem('calculation',calculation);
+        ">C</button>
+        <button onclick="updateCalculation('*');" class="b">x</button>
+        <button onclick="updateCalculation('0');" class="n">0</button>
+        <button id="equal" class="b" onclick="
+        calculation=eval(calculation);
+        displayCalculation();
+        localStorage.setItem('calculation',calculation);
+        ">=</button>
+    </div>
+    <script src="./Calculator.js"></script>
+</body>
+</html>

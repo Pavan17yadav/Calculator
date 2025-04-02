@@ -1,0 +1,64 @@
+div {
+    border: none;
+    width: 350px;
+    height: 480px;
+    margin: 35px 500px;
+    background-color: rgb(208, 206, 206);
+    border-radius: 8px;
+    box-shadow: -5px 5px 10px; 
+}
+button {
+    width: 60px;
+    height: 60px;
+    margin: 9px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+.b {
+    background-color: rgb(45, 45, 45);
+    background-image: linear-gradient(to top, rgb(0, 0, 0) 0%, rgb(48, 47, 47) 50%, rgb(3, 3, 3) 20%, rgb(0, 0, 0) 100%);
+   color: white;
+   box-shadow: inset 2px -2px rgb(235, 233, 233);
+}
+.b:hover {
+   background-color: rgb(0, 0, 0);
+   background-image: linear-gradient(to top, rgb(0, 0, 0) 0%, rgb(1, 1, 1) 50%, rgb(3, 3, 3) 20%, rgb(0, 0, 0) 100%);
+   
+}
+#box {
+    width: 300px;
+    margin: 3px 3px;
+    height: 50px;
+    margin: 40px 20px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: inset 0 0 5px 5px rgb(109, 109, 109);
+    font-size: 22px;
+    padding-left: 20px;
+}
+.p {
+    margin-left: 21px;
+}
+#clear {
+    background-color: rgb(184, 2, 2);
+    background-image: linear-gradient(to top, rgb(213, 1, 1) 0%, rgb(248, 0, 0) 50%, rgb(230, 0, 0) 20%, rgb(218, 0, 0) 100%);
+    color: white;
+    box-shadow: inset 2px -2px rgb(251, 153, 153);
+}
+.n {
+    background-color: rgb(236, 233, 233);
+    background-image: linear-gradient(to top, rgb(128, 125, 125) 0%, rgb(242, 242, 242) 50%, white 20%, white 100%);
+    box-shadow: inset -2px 2px 4px;
+}
+.n:hover 
+{
+    background-color:white;
+    background-image: linear-gradient(to top, rgb(236, 236, 236) 0%, rgb(236, 233, 233) 100%, white 20%, white 100%);
+}
+#clear:hover {
+    background-color: rgb(218, 0, 0);
+    background-image: linear-gradient(to top, rgb(213, 1, 1) 0%, rgb(248, 0, 0) 100%, rgb(230, 0, 0) 20%, rgb(218, 0, 0) 100%);    
+}
